@@ -1,0 +1,3 @@
+com/gustavo/spring_boot_project/SpringBootProjectApplicationTests.class
+com/gustavo/spring_boot_project/service/mapper/ObjectMapperTests.class
+com/gustavo/spring_boot_project/service/mapper/Mock/MockPerson.class
