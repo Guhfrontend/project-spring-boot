@@ -1,7 +1,7 @@
 package com.gustavo.spring_boot_project.controller;
 
-import com.gustavo.spring_boot_project.DTO.PersonDTO;
-import com.gustavo.spring_boot_project.model.Person;
+import com.gustavo.spring_boot_project.DTO.v1.PersonDTO;
+import com.gustavo.spring_boot_project.DTO.v2.PersonDTOV2;
 import com.gustavo.spring_boot_project.service.PersonService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -42,4 +42,11 @@ public class PersonController {
     public void delete(@PathVariable("id") Long id){
         personService.delete(id);
     }
+
+    @PostMapping(value = "/v2", consumes = MediaType.APPLICATION_JSON_VALUE)
+    public PersonDTOV2 create(@RequestBody PersonDTOV2 person){
+        return personService.createV2(person);
+    }
 }
+
+

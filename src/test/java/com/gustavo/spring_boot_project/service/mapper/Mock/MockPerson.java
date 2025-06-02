@@ -1,6 +1,6 @@
 package com.gustavo.spring_boot_project.service.mapper.Mock;
 
-import com.gustavo.spring_boot_project.DTO.PersonDTO;
+import com.gustavo.spring_boot_project.DTO.v1.PersonDTO;
 import com.gustavo.spring_boot_project.model.Person;
 
 import java.util.ArrayList;

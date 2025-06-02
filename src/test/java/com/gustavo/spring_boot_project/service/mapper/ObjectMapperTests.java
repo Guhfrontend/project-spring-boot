@@ -4,7 +4,7 @@ import static com.gustavo.spring_boot_project.service.mapper.ObjectMapper.parseL
 import static com.gustavo.spring_boot_project.service.mapper.ObjectMapper.parseObject;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import java.util.List;
-import com.gustavo.spring_boot_project.DTO.PersonDTO;
+import com.gustavo.spring_boot_project.DTO.v1.PersonDTO;
 import com.gustavo.spring_boot_project.model.Person;
 import com.gustavo.spring_boot_project.service.mapper.Mock.MockPerson;
 import org.junit.jupiter.api.BeforeEach;
